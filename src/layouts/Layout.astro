@@ -1,0 +1,35 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title, slug } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang='nb-NO'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='generator' content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class='bg-warm-grey-050'>
+    {
+      Astro.cookies.get('admin') ? (
+        <div class='fixed left-0 top-0 w-12 rounded-br bg-warm-grey-900 px-1 pb-0.5 pt-1 text-center text-xl text-warm-grey-050'>
+          <a
+            target='_blank'
+            href={`https://em-cms.vercel.app/edit/${
+              import.meta.env.SUPABASE_NAME
+            }/${slug}`}
+          >
+            Edit
+          </a>
+        </div>
+      ) : null
+    }
+    <slot />
+  </body>
+</html>

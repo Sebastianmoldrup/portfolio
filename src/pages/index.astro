@@ -1,0 +1,50 @@
+---
+import { createClient } from '@supabase/supabase-js';
+import Layout from '../layouts/Layout.astro';
+import ContactForm from '../components/ContactForm';
+import Content from '../components/Content';
+
+import { getPage } from '../utils/supabase';
+
+interface pageData {
+  title: string;
+  content_json: string;
+  description: string;
+  author: string;
+  settings: Record<string, any>;
+  error?: string;
+  error_code?: number;
+}
+
+const data = (await getPage('frontpage')) as pageData;
+// console.dir(data, { depth: null });
+// const regexp = new RegExp('^<p>\\[list\\].*<\\/p>$', 'gm');
+
+// const content = data.content.split('\n').map((p) => {
+//   // if (regexp.test(p)) ___astro_return;
+//   // throw '<p>hi</p>';
+//   // if (/^<p>\[list\].*<\/p>$/.test(p)) ___astro_return;
+//   // throw 'hi';
+//   return p;
+// });
+
+if (data.error_code) Astro.response.status = data.error_code;
+---
+
+<Layout title={data.title ?? 'no title'} slug='frontpage'>
+  <main class='prose mx-auto my-4'>
+    {
+      data.error ? (
+        <div>
+          <div>Error - {data.error_code}</div>
+          <div>{data.error}</div>
+        </div>
+      ) : (
+        <>
+          <h1>Forside</h1>
+          <Content content={data.content_json} />
+        </>
+      )
+    }
+  </main>
+</Layout>

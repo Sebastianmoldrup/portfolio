@@ -1,0 +1,11 @@
+---
+import { getLs } from '../../utils/supabase';
+
+const data = await getLs(Astro.params.slug);
+if (data?.[0]?.url) {
+  return Astro.redirect(data[0].url);
+}
+Astro.response.status = 404;
+---
+
+<div class='grid h-screen place-items-center'>404 - not found</div>
