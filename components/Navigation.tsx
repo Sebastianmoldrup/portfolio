@@ -31,34 +31,32 @@ export default function Navigation() {
         </li>
       </ul>
 
-      <div className='grid place-content-center md:hidden'>
-        <Drawer>
-          <DrawerTrigger>
-            <HamburgerIcon />
-          </DrawerTrigger>
-          <DrawerContent>
-            <DrawerHeader>
-              <Button>
-                <Link href='/'>Hjem</Link>
-              </Button>
-              <Button>
-                <Link href='/experience'>Erfaring</Link>
-              </Button>
-              <Button>
-                <Link href='/projects'>Prosjekter</Link>
-              </Button>
-              <Button>
-                <Link href='/contact'>Kontakt</Link>
-              </Button>
-            </DrawerHeader>
-            <DrawerFooter>
-              <DrawerClose>
-                <Button variant='outline'>Lukk meny</Button>
-              </DrawerClose>
-            </DrawerFooter>
-          </DrawerContent>
-        </Drawer>
-      </div>
+      <Drawer>
+        <DrawerTrigger>
+          <HamburgerIcon />
+        </DrawerTrigger>
+        <DrawerContent>
+          <DrawerHeader>
+            <Button>
+              <Link href='/'>Hjem</Link>
+            </Button>
+            <Button>
+              <Link href='/experience'>Erfaring</Link>
+            </Button>
+            <Button>
+              <Link href='/projects'>Prosjekter</Link>
+            </Button>
+            <Button>
+              <Link href='/contact'>Kontakt</Link>
+            </Button>
+          </DrawerHeader>
+          <DrawerFooter>
+            <DrawerClose>
+              <Button variant='outline'>Lukk meny</Button>
+            </DrawerClose>
+          </DrawerFooter>
+        </DrawerContent>
+      </Drawer>
     </nav>
   );
 }
