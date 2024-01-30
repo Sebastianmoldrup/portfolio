@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Catamaran } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 
 const catamaran = Catamaran({ subsets: ['latin'] });
 
