@@ -23,7 +23,7 @@ export default function Home() {
           preload='none'
           className='rounded-md'
         >
-          <source src='/offshoreview.mp4' type='video/mp4' />
+          <source src='/offshoreview.MP4' type='video/mp4' />
           Din browser støtter ikke videon
         </video>
       </div>

@@ -4,10 +4,10 @@ import Work from '@/components/Work';
 
 export default function Experience() {
   return (
-    <main className='flex flex-col justify-center items-center space-y-10 min-h-screen bg-[#101115] text-white p-4 md:py-6 md:px-8'>
-      <div className='lg:flex lg:items-center lg:space-x-14 space-y-14 lg:space-y-0 w-full'>
-        <div className='space-y-14'>
-          <div className='md:w-[500px]'>
+    <main className='flex flex-col justify-center items-center space-y-10 min-h-screen w-full bg-[#101115] text-white md:py-6 md:px-8'>
+      <div className='lg:flex lg:items-center lg:justify-center lg:space-x-14 space-y-14 lg:space-y-0 w-full'>
+        <div className='flex flex-col space-y-14'>
+          <div className='self-center md:w-[500px] px-4'>
             For tiden jobber jeg som lærling hos Effektiv Markedsføring i
             Bergen. I denne stillingen er jeg ansvarlig for blant annet å skape
             skreddersydde løsninger gjennom utvikling av plugins. Støtte
