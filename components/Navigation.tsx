@@ -28,7 +28,7 @@ export default function Navigation() {
         </li>
       </ul>
 
-      <div onClick={() => setOpen(!open)}>
+      <div className='md:hidden' onClick={() => setOpen(!open)}>
         <HamburgerIcon />
       </div>
 
