@@ -1,3 +1,7 @@
 export default function Projects() {
-  return <div></div>;
+  return (
+    <div className='flex flex-col justify-center items-center h-full bg-[#101115] text-white p-4 md:pt-6 md:px-8'>
+      <div className='text-3xl font-semibold'>[ Prosjekter kommer snart ]</div>
+    </div>
+  );
 }
