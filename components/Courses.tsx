@@ -9,7 +9,7 @@ import {
 
 export default function Courses() {
   return (
-    <div className='md:border-l-2 md:pl-4'>
+    <div className='lg:border-l-2 lg:pl-4'>
       <h2 className='text-center text-xl font-semibold py-2'>Kurs</h2>
       <Table>
         <TableHeader>

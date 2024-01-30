@@ -5,7 +5,7 @@ import Work from '@/components/Work';
 export default function Experience() {
   return (
     <main className='flex flex-col justify-center items-center space-y-10 min-h-screen bg-[#101115] text-white p-4 md:py-6 md:px-8'>
-      <div className='md:flex md:items-center md:space-x-14 space-y-14 md:space-y-0 w-full'>
+      <div className='lg:flex lg:items-center lg:space-x-14 space-y-14 lg:space-y-0 w-full'>
         <div className='space-y-14'>
           <div className='md:w-[500px]'>
             For tiden jobber jeg som lærling hos Effektiv Markedsføring i
