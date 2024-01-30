@@ -21,6 +21,7 @@ export default function Home() {
           loop
           muted
           preload='none'
+          playsInline
           className='rounded-md'
         >
           <source src='/offshoreview.MP4' type='video/mp4' />
