@@ -29,7 +29,11 @@ export default function Programming() {
     Design: ['Figma', 'Krita'],
   };
 
-  const svg = {
+  type SvgType = {
+    [key: string]: ReactElement;
+  };
+
+  const svg: SvgType = {
     JavaScript: <JavascriptIcon />,
     TypeScript: <TypescriptIcon />,
     HTML: <HtmlIcon />,
