@@ -30,7 +30,7 @@ export default function Programming() {
   };
 
   type SvgType = {
-    [key: string]: ReactElement;
+    [key: string]: SVGRectElement;
   };
 
   const svg: SvgType = {
