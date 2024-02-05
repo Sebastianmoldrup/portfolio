@@ -9,10 +9,7 @@ import {
 
 export default function Courses() {
   return (
-    <div className='lg:border-t-2 lg:pt-4'>
-      <h2 className='text-center text-xl font-semibold py-2'>
-        Utdanning / Arbeidserfaring
-      </h2>
+    <div className='w-[320px]'>
       <Table>
         <TableHeader>
           <TableRow>
