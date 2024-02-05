@@ -23,11 +23,12 @@ import React, { ReactElement } from 'react';
 export default function Programming() {
   const categories = {
     Frontend: ['JavaScript', 'TypeScript', 'React', 'Next', 'Astro'],
-    Backend: ['PHP', 'Supabase', 'Wordpress'],
+    Backend: ['PHP', 'Wordpress'],
     Styling: ['CSS', 'TailwindCSS'],
     Markup: ['HTML', 'MDX'],
-    Skyløsning: ['Vercel'],
-    Versjonskontroll: ['Github', 'Git'],
+    Database: ['Supabase'],
+    Cloud: ['Vercel'],
+    VersionControl: ['Github', 'Git'],
     Design: ['Figma', 'Krita'],
   };
 
