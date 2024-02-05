@@ -18,6 +18,8 @@ import {
   SupabaseIcon,
 } from '@/components/Icons';
 
+import React, { ReactElement } from 'react';
+
 export default function Programming() {
   const categories = {
     Frontend: ['JavaScript', 'TypeScript', 'React', 'Next', 'Astro'],
@@ -30,7 +32,7 @@ export default function Programming() {
   };
 
   type SvgType = {
-    [key: string]: SVGRectElement;
+    [key: string]: ReactElement;
   };
 
   const svg: SvgType = {
