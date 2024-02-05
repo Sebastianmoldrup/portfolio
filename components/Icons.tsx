@@ -346,7 +346,7 @@ export function VercelIcon() {
   );
 }
 
-export function GithubIcon({ style }: { style: string }) {
+export function GithubIcon({ style = '#000000' }: { style?: string }) {
   return (
     <svg
       width='30px'
