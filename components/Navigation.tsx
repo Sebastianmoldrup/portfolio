@@ -11,7 +11,9 @@ export default function Navigation() {
 
   return (
     <nav className='flex justify-between items-center w-full bg-[#101115] text-white p-4 md:py-6 md:px-8'>
-      <h1 className='text-2xl'>Sebastian Møldrup</h1>
+      <h1 className='text-2xl'>
+        <a href='/'>Sebastian Møldrup</a>
+      </h1>
 
       <ul className='hidden md:flex space-x-8 text-xl'>
         <li className='hover:scale-125 hover:cursor-pointer'>
@@ -28,7 +30,10 @@ export default function Navigation() {
         </li>
       </ul>
 
-      <div className='md:hidden' onClick={() => setOpen(!open)}>
+      <div
+        className='md:hidden hover:cursor-pointer'
+        onClick={() => setOpen(!open)}
+      >
         <HamburgerIcon />
       </div>
 
