@@ -1,0 +1,22 @@
+[
+	{
+		"title": "C#",
+		"type": "språk",
+		"desc": ""
+	},
+	{
+		"title": "Svelte",
+		"type": "rammeverk",
+		"desc": ""
+	},
+	{
+		"title": ".NET",
+		"type": "rammeverk",
+		"desc": ""
+	},
+	{
+		"title": "Docker",
+		"type": "Konteiner",
+		"desc": ""
+	}
+]

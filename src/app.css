@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+	/* scroll-padding-top: 80px; */
+}
+
+@theme {
+	--color-primary: #16161a;
+	--color-test: #1e1e23; /* #1e1e23, #25252b, #2c2c33 */
+	--color-btn: #7f5af0;
+	--color-text: #fffffe;
+	--color-paragraph: #94a1b2;
+	--color-stroke: #010101;
+	--color-secondary: #72757e;
+	--color-tertiary: #2cb67d;
+	--color-highlight: #2cb67d;
+}

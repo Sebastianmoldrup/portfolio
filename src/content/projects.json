@@ -1,0 +1,131 @@
+[
+	{
+		"title": "Tour De Møhlenpris",
+		"src": "/projects/tourdemohlenpris.gif",
+		"alt": "Tour De Møhlenpris demo",
+		"desc": "IT-utvikler fagprøven bestod av en reel kundeoppgave hvor Møhlenpris borettslag trengte en ny nettside som kunne automatisere fordelingsprosessen og gjøre det mulig for å manuelt gjøre endringer og printe ut invitasjoner for hvert deltaker",
+		"links": [
+			{
+				"url": "https://github.com/Sebastianmoldrup/tour-de-mohlenpris",
+				"icon": "Github"
+			},
+			{
+				"url": "https://tour-de-mohlenpris.vercel.app/",
+				"icon": "Live"
+			}
+		],
+		"techstack": [
+			{
+				"title": "next"
+			},
+			{
+				"title": "Google"
+			},
+			{
+				"title": "typescript"
+			},
+			{
+				"title": "supabase"
+			},
+			{
+				"title": "vercel"
+			},
+			{
+				"title": "tailwindcss"
+			}
+		],
+		"wip": false
+	},
+	{
+		"title": "Effektiv Markedsføring",
+		"src": "/projects/effektivmarkedsforing.gif",
+		"alt": "Effektiv Markedsføring demo",
+		"desc": "I starten av min læretid fikk jeg i oppgave å ta ansvar for både frontend design og utvikling av hjemmesiden for bedriften",
+		"links": [
+			{
+				"url": "https://effektivmarkedsforing.no/",
+				"icon": "Github"
+			},
+			{
+				"url": "",
+				"icon": "Live"
+			}
+		],
+		"techstack": [
+			{
+				"title": "astro"
+			},
+			{
+				"title": "tailwindcss"
+			},
+			{
+				"title": "markdown"
+			},
+			{
+				"title": "vercel"
+			}
+		],
+		"wip": false
+	},
+	{
+		"title": "Portfolio",
+		"src": "",
+		"alt": "",
+		"desc": "",
+		"links": [
+			{
+				"url": "",
+				"icon": "Github"
+			},
+			{
+				"url": "",
+				"icon": "Live"
+			}
+		],
+		"techstack": [
+			{
+				"title": "sveltekit"
+			},
+			{
+				"title": "tailwindcss"
+			}
+		],
+		"wip": true
+	},
+	{
+		"title": "Marthe coaching",
+		"src": "",
+		"alt": "",
+		"desc": "",
+		"links": [
+			{
+				"url": "https://tour-de-mohlenpris.vercel.app/",
+				"icon": "Github"
+			},
+			{
+				"url": "",
+				"icon": "Live"
+			}
+		],
+		"techstack": [],
+		"wip": true
+	},
+	{
+		"title": "Anja's kattepass",
+		"src": "",
+		"alt": "",
+		"desc": "",
+		"links": [
+			{
+				"url": "",
+				"icon": "Github"
+			},
+			{
+				"url": "",
+				"icon": "Live"
+			}
+		],
+		"techstack": [],
+		"wip": true
+	}
+]

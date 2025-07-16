@@ -1,0 +1,22 @@
+[
+	{
+		"src": "about",
+		"text": "Om meg"
+	},
+	{
+		"src": "career",
+		"text": "Karriere"
+	},
+	{
+		"src": "projects",
+		"text": "Prosjekter"
+	},
+	{
+		"src": "exploring",
+		"text": "Utforsker"
+	},
+	{
+		"src": "contact",
+		"text": "Kontakt"
+	}
+]

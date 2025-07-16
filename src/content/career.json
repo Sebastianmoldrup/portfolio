@@ -1,0 +1,30 @@
+[
+	{
+		"role": "IT-utvikler lærling",
+		"employer": "Effektiv Markedsføring AS",
+		"location": "Bergen",
+		"date": "2022 - 2025",
+		"desc": "Min IT-utvikler læretid begynte hos Effektiv Markedsføring hvor jeg har arbeidet med å utvikle skreddersydde løsninger i deres interne systemer, bistå ved kundedialog og videreutvikling, og opprettet både front-end og full-stack webapplikasjoner."
+	},
+	{
+		"role": "IT-utvikler utplassering (kodehode)",
+		"employer": "Effektiv Markedsføring AS",
+		"location": "Bergen",
+		"date": "2021 - 2022",
+		"desc": "Halvveis i kurset hos Kodehode ble jeg utplassert hos Effektiv Markedsføring hvor jeg fikk reell erfaring for å videreutvikle mine programmerings kunnskaper."
+	},
+	{
+		"role": "Boreoperatør lærling",
+		"employer": "Archer AS",
+		"location": "Gullfaks C",
+		"date": "2018 - 2020",
+		"desc": "Etter VG2 Brønnteknikk begynte jeg i lære hos Archer AS hvor jeg jobbet som en boreoperatør lærling på plattformen Gullfaks C. Her fikk jeg offshore arbeidserfaring innen alle de sentrale områdene innen borefasen. Jeg fikk også jobbe i team under krevende miljøer."
+	},
+	{
+		"role": "Utplassering (VG2 Brønnteknikk)",
+		"employer": "Baker Hughes",
+		"location": "Stavanger",
+		"date": "2018",
+		"desc": "I VG2 var jeg utplassert hos Baker Hughes for å få litt mer innsikt i relevant arbeid. Jeg fikk da ta del i vedlikehold, testing og pakking av utstyr som skulle sendes offshore."
+	}
+]
