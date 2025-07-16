@@ -8,9 +8,12 @@
 	import Javascript from './icons/Javascript.svelte';
 	import Supabase from './icons/Supabase.svelte';
 	import Vercel from './icons/Vercel.svelte';
+	import Netlify from './icons/Netlify.svelte';
 	import Sveltekit from './icons/Sveltekit.svelte';
 	import Google from './icons/Google.svelte';
+	import Html from './icons/HTML.svelte';
 	import Markdown from './icons/Markdown.svelte';
+	import Css from './icons/CSS.svelte';
 
 	const components = {
 		astro: Astro,
@@ -21,8 +24,11 @@
 		javascript: Javascript,
 		supabase: Supabase,
 		vercel: Vercel,
+		netlify: Netlify,
 		google: Google,
-		markdown: Markdown
+		html: Html,
+		markdown: Markdown,
+		css: Css
 	};
 
 	const handleComponent = (prop: string) => {
@@ -32,7 +38,7 @@
 </script>
 
 <section class="text-text grid place-content-center space-y-16 p-8 py-24">
-	<div class="mx-auto max-w-2xl space-y-1">
+	<div class="heading mx-auto space-y-1">
 		<span class="text-muted-foreground text-tertiary block text-sm tracking-widest uppercase"
 			>Prosjekter</span
 		>

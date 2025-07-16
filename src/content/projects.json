@@ -43,11 +43,11 @@
 		"desc": "I starten av min læretid fikk jeg i oppgave å ta ansvar for både frontend design og utvikling av hjemmesiden for bedriften",
 		"links": [
 			{
-				"url": "https://effektivmarkedsforing.no/",
+				"url": "",
 				"icon": "Github"
 			},
 			{
-				"url": "",
+				"url": "https://effektivmarkedsforing.no/",
 				"icon": "Live"
 			}
 		],
@@ -88,9 +88,46 @@
 			},
 			{
 				"title": "tailwindcss"
+			},
+			{
+				"title": "css"
+			},
+			{
+				"title": "netlify"
 			}
 		],
 		"wip": true
+	},
+	{
+		"title": "Pure JS calculator",
+		"src": "/projects/jscalculator.gif",
+		"alt": "",
+		"desc": "",
+		"links": [
+			{
+				"url": "https://github.com/Sebastianmoldrup/calculator-js",
+				"icon": "Github"
+			},
+			{
+				"url": "https://elegant-axolotl-cdd408.netlify.app/",
+				"icon": "Live"
+			}
+		],
+		"techstack": [
+			{
+				"title": "javascript"
+			},
+			{
+				"title": "html"
+			},
+			{
+				"title": "tailwindcss"
+			},
+			{
+				"title": "netlify"
+			}
+		],
+		"wip": false
 	},
 	{
 		"title": "Marthe coaching",

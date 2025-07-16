@@ -1,15 +1,15 @@
 <script>
 	import { Smartphone, Menu, Linkedin, Github } from '@lucide/svelte';
-	import Carousel from './Marquee.svelte';
+	import Marquee from './Marquee.svelte';
 	import Socials from './Socials.svelte';
 	let src = './selfie.png';
 </script>
 
 <section
 	id="about"
-	class="text-text mx-auto grid max-w-2xl place-content-center space-y-8 p-8 py-24 md:space-y-16"
+	class="text-text mdmax-w-xl mx-auto grid max-w-[375px] place-content-center space-y-8 p-8 py-24 md:space-y-16"
 >
-	<div class="space-y-1">
+	<div class="heading space-y-1">
 		<span class="text-muted-foreground text-tertiary block text-sm tracking-widest uppercase"
 			>Om meg</span
 		>
@@ -33,4 +33,5 @@
 		</div>
 	</div>
 </section>
-<Carousel />
+
+<Marquee />

@@ -5,7 +5,7 @@
 	id="contact"
 	class="text-text mx-auto grid max-w-xl place-content-center space-y-8 p-8 py-16"
 >
-	<div class="space-y-1">
+	<div class="heading space-y-1">
 		<span class="text-muted-foreground text-tertiary block text-sm tracking-widest uppercase"
 			>Kontakt</span
 		>

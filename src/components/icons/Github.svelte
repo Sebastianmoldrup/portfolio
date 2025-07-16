@@ -1,5 +1,5 @@
 <script>
-	let size = 35;
+	export let size = 35;
 </script>
 
 <svg viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg" height={size} width={size}>

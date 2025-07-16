@@ -6,7 +6,7 @@
 	id="career"
 	class="text-text bg-test mx-auto grid place-content-center space-y-8 p-8 py-16"
 >
-	<div class="space-y-1">
+	<div class="heading space-y-1">
 		<span class="text-muted-foreground text-tertiary block text-sm tracking-widest uppercase"
 			>Karriere</span
 		>

@@ -1,8 +1,6 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	font-family: 'Roboto', sans-serif;
 	scroll-behavior: smooth;
 	/* scroll-padding-top: 80px; */
 }
@@ -17,4 +15,8 @@
 	--color-secondary: #72757e;
 	--color-tertiary: #2cb67d;
 	--color-highlight: #2cb67d;
+}
+
+.heading {
+	@apply w-[320px] md:w-xl;
 }

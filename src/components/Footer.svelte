@@ -1,6 +1,6 @@
 <script>
 	import links from '../content/links.json';
-	import { Linkedin, Github } from '@lucide/svelte';
+	import Socials from './Socials.svelte';
 	let year = new Date().getFullYear();
 </script>
 
@@ -22,14 +22,6 @@
 		</nav>
 
 		<!-- Right: social / GitHub -->
-		<div class="flex space-x-2 p-4">
-			<a href="#linkedin" class="hover:scale-110 hover:cursor-pointer">
-				<Linkedin class="h-5 w-5" />
-			</a>
-			<div class="border-r-2"></div>
-			<a href="#github" class="hover:scale-110 hover:cursor-pointer">
-				<Github class="h-5 w-5" />
-			</a>
-		</div>
+		<Socials />
 	</div>
 </footer>

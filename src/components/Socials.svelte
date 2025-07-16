@@ -2,6 +2,8 @@
 	import Github from './icons/Github.svelte';
 	import Linkedin from './icons/Linkedin.svelte';
 
+	let size = 25;
+
 	const iconComponents = {
 		github: Github,
 		linkedin: Linkedin
@@ -23,10 +25,10 @@
 	};
 </script>
 
-<div class="flex gap-4">
+<div class="flex items-center gap-4">
 	{#each socials as social}
 		<a href={social.link}>
-			<svelte:component this={handleComponent(social.icon)} />
+			<svelte:component this={handleComponent(social.icon)} {size} />
 		</a>
 	{/each}
 </div>
