@@ -38,23 +38,26 @@
 	// Icon sizes
 	let size = 45;
 
-	// Initialize reducedMotion variable
-	let reducedMotion: boolean = true;
+	// Initialize prefersReducedMotion variable
+	// let prefersReducedMotion: boolean = false;
+	let prefersReducedMotion = false;
+	console.log(prefersReducedMotion);
 
 	// WCAG for people who struggle with motions sickness
 	// Uses flexbox wrap to show icons instead of marquee if prefers-reduced-motion is activated for the user
-	// Emulate via CMD + SHIFT + P and type in emulate prefers reduced motion to activate
+	// Emulate via CMD + SHIFT + P and type in emulate prefers reduced motion to activate - may need a page refresh
 	onMount((): (() => void) => {
 		const mediaQuery: MediaQueryList = window.matchMedia('(prefers-reduced-motion: reduce)');
+		// console.log(mediaQuery);
 
 		// Set initial value
-		reducedMotion = mediaQuery.matches;
+		prefersReducedMotion = mediaQuery.matches;
 
 		// Listen for changes with explicit typing
 		const handleChange: (event: MediaQueryListEvent) => void = (e) => {
-			reducedMotion = !e.matches;
+			prefersReducedMotion = e.matches;
 
-			console.log('Motion preference changed:', reducedMotion);
+			console.log('Motion preference changed:', prefersReducedMotion);
 		};
 
 		mediaQuery.addEventListener('change', handleChange);
@@ -72,13 +75,13 @@
 		<!-- 	Todo: Create a toggle button to render either ICONS or TEXT in marquee	 -->
 	</div>
 
-	<div data-animation={reducedMotion} id="outer" class="mx-auto max-w-xl">
+	<div data-animation={!prefersReducedMotion} id="outer" class="mx-auto max-w-xl">
 		<div id="inner" class="">
 			{#each Object.entries(iconComponents) as [key, component]}
 				<svelte:component this={component} {size} />
 			{/each}
 
-			{#if reducedMotion}
+			{#if !prefersReducedMotion}
 				{#each Object.entries(iconComponents) as [key, component]}
 					<svelte:component this={component} {size} />
 				{/each}

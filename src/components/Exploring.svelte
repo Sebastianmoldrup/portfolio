@@ -18,12 +18,11 @@
 		<span class="text-muted-foreground text-tertiary block text-sm tracking-widest uppercase"
 			>Utforsker</span
 		>
-		<h1 class="text-3xl font-bold tracking-tight">Nye teknologier</h1>
+		<h1 class="text-3xl font-bold tracking-tight">Programmer jeg prøver ut</h1>
 		<div class="bg-text h-[2px] w-8 rounded-full"></div>
 	</div>
 
 	<div class="flex gap-4">
-		<p>Hva jeg</p>
 		<Python />
 		<Csharp />
 		<Dotnet />
