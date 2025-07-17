@@ -46,7 +46,7 @@
 				rows="4"
 				required
 				class="resize-vertical w-full rounded-md border border-neutral-700 bg-neutral-800 px-3 py-2 text-white placeholder-neutral-400 transition-colors focus:border-purple-500 focus:ring-2 focus:ring-purple-500 focus:outline-none"
-				placeholder=Hva kan jeg hjelpe deg med?"
+				placeholder="Hva kan jeg hjelpe deg med?"
 			></textarea>
 		</div>
 
@@ -54,7 +54,7 @@
 			type="submit"
 			class="w-full rounded-md bg-purple-600 px-4 py-2 font-medium text-white transition-colors hover:bg-purple-700 focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-neutral-900 focus:outline-none"
 		>
-            Send melding
+			Send melding
 		</button>
 	</form>
 </section>
