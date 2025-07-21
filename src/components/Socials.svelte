@@ -12,11 +12,11 @@
 	const socials = [
 		{
 			icon: 'github',
-			link: '#'
+			link: 'https://github.com/Sebastianmoldrup'
 		},
 		{
 			icon: 'linkedin',
-			link: '#'
+			link: 'https://www.linkedin.com/in/sebastianmoldrup/'
 		}
 	];
 
@@ -27,7 +27,7 @@
 
 <div class="flex items-center gap-4">
 	{#each socials as social}
-		<a href={social.link}>
+		<a href={social.link} target="_blank">
 			<svelte:component this={handleComponent(social.icon)} {size} />
 		</a>
 	{/each}
